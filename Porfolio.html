@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<div class="container">
+    <a class="navbar-brand" href="#">Portfolio</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+
+<header class="text-center text-white">
+<div class="container hero-content">
+
+    <img src="Profie Pic.jfif" alt="Profile Picture" class="profile-pic rounded-circle mb-3"
+         width="150" height="200"
+         style="object-fit:cover; border:4px solid rgba(255,255,255,0.3); box-shadow:0 0 20px rgba(156,107,255,0.4);">
+
+    <div class="intro-text">
+        <span class="animated-line">Hi, I am Neha</span>
+    </div>
+
+    <div class="hero-text-lines">
+        <p class="hero-text-line" style="font-size:2rem; font-weight:700; margin:0;">
+         Creating modern, responsive websites with clean design and speed.
+    </div>
+
+    <div class="hero-actions">
+        <button class="btn btn-primary btn-lg">Hire Me</button>
+        <button id="downloadBtn" class="btn btn-outline-light btn-lg">Download Resume</button>
+        <a href="https://github.com/nehaBibi?tab=repositories" target="_blank" class="btn btn-dark btn-lg">GitHub</a>
+    </div>
+
+    <p class="hero-tag ">Web Developer | Designer | Student | 3+ Projects Delivered</p>
+</div>
+</header>
+
+<section id="about" class="container py-5">
+<div class="card shadow p-4">
+<h2 class="text-center">About Me</h2>
+<p class="text-center">
+I am a Software Engineering student passionate about web development. I create responsive and user-friendly websites using HTML, CSS, JavaScript, and jQuery.
+</p>
+</div>
+</section>
+
+<section id="skills" class="container py-5">
+<div class="card shadow p-4">
+<h2 class="text-center mb-4">Skills</h2>
+
+<div class="mb-3">
+<div class="d-flex justify-content-between">
+<span>Website Development</span><span>95%</span>
+</div>
+<div class="skill-bar"><div class="skill-fill" data="95%"></div></div>
+</div>
+
+<div class="mb-3">
+<div class="d-flex justify-content-between">
+<span>SQL</span><span>90%</span>
+</div>
+<div class="skill-bar"><div class="skill-fill" data="90%"></div></div>
+</div>
+
+<div class="mb-3">
+<div class="d-flex justify-content-between">
+<span>Java</span><span>85%</span>
+</div>
+<div class="skill-bar"><div class="skill-fill" data="85%"></div></div>
+</div>
+
+<div class="mb-3">
+<div class="d-flex justify-content-between">
+<span>Python</span><span>90%</span>
+</div>
+<div class="skill-bar"><div class="skill-fill" data="90%"></div></div>
+</div>
+
+</div>
+</section>
+<section id="tools" class="container py-5">
+  <div class="card shadow p-4">
+    <h2 class="text-center mb-4">Tools</h2>
+
+    <div class="mb-3">
+      <div class="d-flex justify-content-between">
+        <span>VS Code</span><span>95%</span>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" data="95%"></div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <div class="d-flex justify-content-between">
+        <span>Git & GitHub</span><span>90%</span>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" data="90%"></div>
+      </div>
+    </div>
+
+</div>
+</section>
+
+<section id="projects" class="container py-5">
+<h2 class="text-center mb-4">Projects</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card shadow h-100">
+<img src="shopping.jpg" class="card-img-top project-img">
+<div class="card-body">
+<h5>Online Shopping System</h5>
+<p>Shopping system for browsing products, cart, and purchase.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow h-100">
+<img src="restrauent.jpeg" class="card-img-top project-img">
+<div class="card-body">
+<h5>Restaurant Management System</h5>
+<p>Manage orders, menu and customers efficiently.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow h-100">
+<img src="event.jpg" class="card-img-top project-img">
+<div class="card-body">
+<h5>Event Management System</h5>
+<p>Linux-based event scheduling system.</p>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="container py-5">
+<div class="card shadow p-4">
+<h2 class="text-center">Contact Me</h2>
+
+<div class="d-flex justify-content-center flex-wrap align-items-center text-center my-3">
+
+    <div class="mx-5">
+        <strong>Email:</strong><br>
+        <a href="mailto:neha2303@com" class="text-decoration-none text-dark">
+            neha2303@gmail.com
+        </a>
+    </div>
+
+    <div class="mx-5">
+        <strong>Phone:</strong><br>
+        <a href="tel:+923132038973" class="text-decoration-none text-dark">
+            +92 313 203 8973
+        </a>
+    </div>
+
+    <div class="mx-5">
+        <strong>Location:</strong><br>
+        <a href="https://www.google.com/maps/place/Karachi" target="_blank" class="text-decoration-none text-dark">
+            Karachi, Pakistan
+        </a>
+    </div>
+
+</div>
+
+<form id="form">
+<input class="form-control my-2" type="text" placeholder="Name" required>
+<input class="form-control my-2" type="email" placeholder="Email" required>
+<textarea class="form-control my-2" placeholder="Message"></textarea>
+<button class="btn btn-primary w-100">Submit</button>
+</form>
+
+<p id="msg" class="text-success text-center mt-2" style="display:none;">Message Sent!</p>
+</div>
+</section>
+
+<footer class="bg-dark text-white text-center p-3">
+© 2026 Neha Portfolio
+</footer>
+
+<script>
+particlesJS("particles-js", {
+    particles:{ number:{value:80}, color:{value:"#fff"}, size:{value:3}, move:{speed:2} }
+});
+
+$(document).ready(function(){
+    $(".skill-fill").each(function(){
+        $(this).animate({width:$(this).attr("data")},1500);
+    });
+
+    $("#form").submit(function(e){
+        e.preventDefault();
+        $("#msg").fadeIn();
+        this.reset();
+    });
+});
+
+$("#downloadBtn").click(function () {
+    if(confirm("Do you want to download resume?")){
+        window.location.href = "resume.pdf";
+    }
+});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
