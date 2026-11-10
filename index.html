@@ -230,9 +230,11 @@ $(document).ready(function(){
 });
 
 $("#downloadBtn").click(function () {
-    if(confirm("Do you want to download resume?")){
-        window.location.href = "resume.pdf";
-    }
+    window.open(
+        "https://drive.google.com/uc?export=download&id=1T7wyrO8pl2jNyHeaW0xhTrIs-z7a5m9v",
+        "_blank"
+    );
+
 });
 </script>
 
