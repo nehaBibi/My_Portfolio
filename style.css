@@ -122,17 +122,13 @@ header{
 }
 
 /* Desktop */
-@media (min-width: 992px) {
-    .navbar-collapse {
-        display: flex !important;
-    }
-}
-
-/* Mobile */
 @media (max-width: 991px) {
 
     .navbar-toggler {
-        display: block;
+        display: block !important;
+        margin-left: auto;
+        color: white !important;
+        border: 1px solid white !important;
     }
 
     .navbar-collapse {
@@ -152,7 +148,7 @@ header{
         flex-direction: column;
         gap: 8px;
     }
-
+}
     .navbar-nav .nav-link {
         padding: 12px;
     }
